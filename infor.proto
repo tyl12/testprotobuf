@@ -1,0 +1,12 @@
+syntax="proto3";
+message my_message{
+	string startedTime =1;
+	string version=2;
+	double configuredCapacity=3;
+	double dfsUsed =4;
+	int32 fileNum=5;
+	int32 replicatedFilesNum =6;
+	int32 blockNum =7;
+	int32 livedNodeNum =8;
+	int32 decommissioningNodeNum=9;
+}
